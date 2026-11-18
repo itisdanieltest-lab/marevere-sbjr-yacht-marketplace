@@ -21,3 +21,8 @@ The current backend is Python's standard-library HTTP server with local SQLite a
 ## Current release position
 
 The handover records the current NO-GO gates, disputed research inventory, unverified seller authority, media licensing gaps, and missing director decisions. Do not describe commercial terms, inventory, payment, or director approvals as confirmed until evidence and approvals are recorded.
+
+
+## Get the working source checkout
+
+Clone this repository, then extract `MAREVERE_SBJR_Wrangler_Staging_Desktop_Package.zip` into the cloned repository root. The archive contains the application source and full handover folder. Read `CODEX_WRANGLER_EXECUTION_HANDOVER.md`, `START_HERE_FOR_CHATGPT_WORK.md`, and every file in `HANDOVER/` before changing code.

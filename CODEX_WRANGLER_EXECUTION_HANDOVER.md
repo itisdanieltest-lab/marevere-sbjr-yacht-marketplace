@@ -7,7 +7,7 @@
 
 ## First actions on the desktop
 
-Clone into the desktop and work from that checkout. Do not copy secrets or runtime files into it.
+The GitHub repository keeps the source as a sanitized ZIP package so the private research inventory is not exposed as public files. Clone the repository, extract `MAREVERE_SBJR_Wrangler_Staging_Desktop_Package.zip` into the cloned repository root, and then work from that checkout. Do not copy secrets or runtime files into it.
 
 **Windows PowerShell**
 
@@ -15,6 +15,7 @@ Clone into the desktop and work from that checkout. Do not copy secrets or runti
 Set-Location "$env:USERPROFILE\Desktop"
 git clone https://github.com/itisdanieltest-lab/marevere-sbjr-yacht-marketplace.git
 Set-Location .\marevere-sbjr-yacht-marketplace
+Expand-Archive -Path .\MAREVERE_SBJR_Wrangler_Staging_Desktop_Package.zip -DestinationPath . -Force
 git status --short --branch
 git switch -c codex/wrangler-staging
 ```
@@ -25,6 +26,7 @@ git switch -c codex/wrangler-staging
 cd ~/Desktop
 git clone https://github.com/itisdanieltest-lab/marevere-sbjr-yacht-marketplace.git
 cd marevere-sbjr-yacht-marketplace
+unzip -o MAREVERE_SBJR_Wrangler_Staging_Desktop_Package.zip -d .
 git status --short --branch
 git switch -c codex/wrangler-staging
 ```
