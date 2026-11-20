@@ -10,7 +10,9 @@ This is the public source repository for the MAREVERE · SBJR project. The impor
 
 ## Source and data boundary
 
-The application source, SQL migrations, QA source files, current handover, and non-inventory design assets are tracked here. The source's `inventory_private/` research workbook, raw broker photos/videos, per-asset rights manifest, and yacht-specific approximate 3D reconstructions are intentionally kept out of this public repository. The original source archive remains the authoritative copy. Do not upload or publish those files until the applicable rights and release gates in the handover are cleared.
+The application source, SQL migrations, QA source files, current handover, and non-inventory design assets are tracked here. Scoped project review deliverables are now also tracked: see [`GITHUB_ASSET_REVIEW_README.md`](GITHUB_ASSET_REVIEW_README.md), [`GITHUB_WEB_UPLOAD_STATUS.md`](GITHUB_WEB_UPLOAD_STATUS.md), the updated workbook, source-rights manifest, inventory counts, and [`MAREVERE_SBJR_Review_Package_No_Video_Payloads.zip`](MAREVERE_SBJR_Review_Package_No_Video_Payloads.zip). The ZIP contains all 30 vessel photos, three illustrative yacht models, six Blender files, and three assembled/exploded review clips. One web-review transcode is stored separately at the repository root; three original videos and two larger transcodes are not committed. See the upload-status note for details.
+
+Owner authorization confirmed in this conversation on 2026-11-19 is limited to MAREVERE · SBJR project use and GitHub repository review. It is not a general license and does not authorize public website, staging, or production use. It does not establish seller authority, vessel accuracy, price, availability, or director/commercial/legal approval. The original source archive remains the authoritative complete media package.
 
 Generated local runtime state, including `.runtime/`, demo credentials, local SQLite databases, environment files, Wrangler secrets, and Cloudflare account credentials, must never be committed.
 
@@ -20,8 +22,7 @@ The current backend is Python's standard-library HTTP server with local SQLite a
 
 ## Current release position
 
-The handover records the current NO-GO gates, disputed research inventory, unverified seller authority, media licensing gaps, and missing director decisions. Do not describe commercial terms, inventory, payment, or director approvals as confirmed until evidence and approvals are recorded.
-
+The website release position remains NO-GO. The project/GitHub media authorization does not approve website use, staging, production, commercial terms, seller authority, inventory accuracy, pricing, availability, or director decisions. Keep these approval gates separate and do not present unverified commercial or vessel claims as confirmed.
 
 ## Get the working source checkout
 
